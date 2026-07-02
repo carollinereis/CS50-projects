@@ -1,0 +1,85 @@
+body {
+    font-family: 'inter', sans-serif;
+    background-color: #ffffff;
+    color: #2c3531;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    color: #3d5a46;
+}
+
+.hero-section {
+    background-color: #cad2c5;
+    padding: 60px 0;
+}
+
+.subtitle-text {
+    color: #5b6862;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.bio-text {
+    line-height: 1.8;
+}
+
+.card {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.custom-details {
+    background-color: #f5e6e8;
+    border: 1px solid #d6b2b8;
+}
+
+.custom-details summary {
+    cursor: pointer;
+}
+
+.section-divider {
+    margin: 3rem 0;
+    border-top: 2px solid #d8e2dc;
+    opacity: 0.5;
+}
+
+.table thead th,
+.table .table-light th {
+    background-color: #f5e6e8 !important; 
+    color: #5c3d42 !important;            
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f4f7f5 !important; 
+    color: #2c3531 !important;            
+}
+
+.badge.bg-dark {
+    background-color: #cda4ab !important; 
+    color: #3e2226 !important;            
+}
+footer .btn-outline-dark, 
+footer .btn-outline-primary {
+    background-color: #d6b2b8 !important; 
+    color: #ffffff !important;           
+    border: none !important;              
+    padding: 8px 24px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+footer .btn-outline-dark:hover, 
+footer .btn-outline-primary:hover {
+    background-color: #bfa0a5 !important;
+    color: #ffffff !important;
+}
