@@ -23,13 +23,13 @@ h1, h2, h3, h4 {
 }
 
 .lang-text {
-    font-size: 0.8rem;
+    font-size: 1 rem;
     color: #5b6862
 }
 
 .profile-img {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #ffffff;
@@ -38,13 +38,16 @@ h1, h2, h3, h4 {
 
 .bio-text {
     line-height: 1.8;
+    color: #2c3531;
+
 }
 
 .card {
     border: none;
     background-color: #ffffff;
     border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02); 
+    overflow: hidden;
 }
 
 .custom-details {
@@ -65,9 +68,17 @@ h1, h2, h3, h4 {
 
 .table thead th,
 .table .table-light th {
-    background-color: #f5e6e8 !important; 
-    color: #5c3d42 !important;            
+    background-color: #f5e6e8 !important;
+    color: #5c3d42 !important;
+    padding: 12px 16px !important;        
+    vertical-align: middle;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
 }
+
+.table thead th:nth-child(1) { width: 20% !important; } 
+.table thead th:nth-child(2) { width: 42% !important; } 
+.table thead th:nth-child(3) { width: 40% !important; } 
 
 .table-hover tbody tr:hover {
     background-color: #f4f7f5 !important; 
@@ -78,6 +89,41 @@ h1, h2, h3, h4 {
     background-color: #cda4ab !important; 
     color: #3e2226 !important;            
 }
+
+.tag-clean {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 3px 2px;
+    font-size: 0.75rem;          /* Fonte menorzinha e delicada */
+    font-weight: 500;
+    color: #a38287;              /* Texto em um tom de rosa antigo bem suave */
+    background-color: transparent; /* Remove totalmente o fundo escuro pesado */
+    border: 1px solid #e8d5d8;   /* Borda fina e discreta */
+    border-radius: 50px;         /* Mantém o formato arredondado de pílula */
+    white-space: nowrap;
+}
+
+.custom-details {
+    background-color: #f5e6e8 !important;
+    border: 1px solid #eef2f0;
+    border-radius: 6px !important;    
+    min-height: 220px 
+}
+
+.connect-title {
+    font-size: 1.2rem;   /* Makes it a perfectly balanced size */
+    font-weight: 600;     /* Gives it a clean, elegant weight */
+    color: #3d5a46;       /* Keeps it matching your beautiful heading sage green */
+}
+
+.freetime-text {
+    font-size: 1 rem;      /* A comfortable reading size */
+    border: 1px solid #eef2f0;
+    border-radius: 6px !important;  
+    line-height: 1.5;     /* Ensures good readability */
+    color: #5c3d42;       /* A soft, inviting color */
+}
+
 footer .btn-outline-dark, 
 footer .btn-outline-primary {
     background-color: #d6b2b8 !important; 
@@ -94,20 +140,11 @@ footer .btn-outline-primary:hover {
     color: #ffffff !important;
 }
 
-.custom-details {
-    background-color: #f5e6e8 !important;
-    border: 1px solid #eef2f0;
-    border-radius: 6px !important;     
+.table tbody td {
+    color: #555555 !important;    /* Um cinza escuro super suave e elegante */
 }
 
-.table thead th,
-.table .table-light th {
-    background-color: #f5e6e8 !important;
-    color: #2c3531 !important;
-    padding: 12px 16px !important;        
-    vertical-align: middle;
+.table tbody td.fw-bold {
+    color: #2c3531 !important;    /* Mantém o tom escuro original do seu site, mas... */
+    font-weight: 500 !important;  /* ...deixa o negrito bem mais fino e delicado! */
 }
-
-.table thead th:nth-child(1) { width: 15% !important; } 
-.table thead th:nth-child(2) { width: 45% !important; } 
-.table thead th:nth-child(3) { width: 40% !important; } 
