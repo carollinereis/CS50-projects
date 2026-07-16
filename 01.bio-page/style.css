@@ -148,3 +148,18 @@ footer .btn-outline-primary:hover {
     color: #2c3531 !important;    
     font-weight: 500 !important;  
 }
+
+/* --- Mobile Fixes: Only applies to screens under 768px wide --- */
+@media (max-width: 767px) {
+    /* 1. Allows the tags to wrap on mobile only */
+    .tag-clean {
+        white-space: normal !important;
+    }
+
+    /* 2. Overrides the rigid table widths on mobile only */
+    .table thead th:nth-child(1),
+    .table thead th:nth-child(2),
+    .table thead th:nth-child(3) { 
+        width: auto !important; 
+    }
+}
