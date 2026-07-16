@@ -149,20 +149,3 @@ footer .btn-outline-primary:hover {
     font-weight: 500 !important;  
 }
 
-@media (max-width: 767px) {
-    
-    .tag-clean {
-        white-space: normal !important;
-    }
-
-    .table thead th { 
-        width: auto !important; 
-    }
-
-    .table th, 
-    .table td {
-        padding: 8px 6px !important; 
-        font-size: 0.8rem !important; 
-        white-space: normal !important; 
-    }
-}
