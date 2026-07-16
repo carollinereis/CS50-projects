@@ -94,12 +94,12 @@ h1, h2, h3, h4 {
     display: inline-block;
     padding: 4px 10px;
     margin: 3px 2px;
-    font-size: 0.75rem;          /* Fonte menorzinha e delicada */
+    font-size: 0.75rem;          
     font-weight: 500;
-    color: #a38287;              /* Texto em um tom de rosa antigo bem suave */
-    background-color: transparent; /* Remove totalmente o fundo escuro pesado */
-    border: 1px solid #e8d5d8;   /* Borda fina e discreta */
-    border-radius: 50px;         /* Mantém o formato arredondado de pílula */
+    color: #a38287;              
+    background-color: transparent; 
+    border: 1px solid #e8d5d8;   
+    border-radius: 50px;         
     white-space: nowrap;
 }
 
@@ -111,17 +111,17 @@ h1, h2, h3, h4 {
 }
 
 .connect-title {
-    font-size: 1.2rem;   /* Makes it a perfectly balanced size */
-    font-weight: 600;     /* Gives it a clean, elegant weight */
-    color: #3d5a46;       /* Keeps it matching your beautiful heading sage green */
+    font-size: 1.2rem;   
+    font-weight: 600;    
+    color: #3d5a46;       
 }
 
 .freetime-text {
-    font-size: 1 rem;      /* A comfortable reading size */
+    font-size: 1 rem;      
     border: 1px solid #eef2f0;
     border-radius: 6px !important;  
-    line-height: 1.5;     /* Ensures good readability */
-    color: #5c3d42;       /* A soft, inviting color */
+    line-height: 1.5;     
+    color: #5c3d42;      
 }
 
 footer .btn-outline-dark, 
@@ -141,10 +141,10 @@ footer .btn-outline-primary:hover {
 }
 
 .table tbody td {
-    color: #555555 !important;    /* Um cinza escuro super suave e elegante */
+    color: #555555 !important;    
 }
 
 .table tbody td.fw-bold {
-    color: #2c3531 !important;    /* Mantém o tom escuro original do seu site, mas... */
-    font-weight: 500 !important;  /* ...deixa o negrito bem mais fino e delicado! */
+    color: #2c3531 !important;    
+    font-weight: 500 !important;  
 }
