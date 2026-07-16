@@ -23,5 +23,5 @@ This is an ongoing project that will be updated as I learn new skills in class.
 
 If you want to chat, feel free to reach out:
 
-* **LinkedIn:** <a href="https://www.linkedin.com/in/carollinereis" target="_blank" rel="noopener noreferrer">Click here</a>
-* **GitHub:** <a href="https://github.com/carollinereis" target="_blank" rel="noopener noreferrer">Click me</a>
+* **LinkedIn:** [Click here](https://www.linkedin.com/in/carollinereis)
+* **GitHub:** [Click me](https://github.com/carollinereis)
