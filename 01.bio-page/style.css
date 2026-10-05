@@ -76,9 +76,55 @@ h1, h2, h3, h4 {
     border-top-right-radius: 16px !important;
 }
 
-.table thead th:nth-child(1) { width: 20% !important; } 
-.table thead th:nth-child(2) { width: 42% !important; } 
-.table thead th:nth-child(3) { width: 40% !important; } 
+.table thead th:nth-child(1) { width: 20% !important; }
+.table thead th:nth-child(2) { width: 42% !important; }
+.table thead th:nth-child(3) { width: 40% !important; }
+
+.table-responsive table {
+    table-layout: fixed;
+}
+
+.table-responsive td,
+.table-responsive th {
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 576px) {
+    .table-responsive thead {
+        display: none;
+    }
+
+    .table-responsive table,
+    .table-responsive tbody,
+    .table-responsive tr,
+    .table-responsive td {
+        display: block;
+        width: 100% !important;
+    }
+
+    .table-responsive tbody tr {
+        padding: 14px 0;
+        border-bottom: 1px solid #eef2f0;
+    }
+
+    .table-responsive tbody tr:last-child {
+        border-bottom: none;
+    }
+
+    .table-responsive td {
+        padding: 2px 0 !important;
+        border: none !important;
+    }
+
+    .table-responsive td:first-child {
+        font-size: 1.05rem;
+        margin-bottom: 4px;
+    }
+
+    .table-responsive td:nth-child(2) {
+        margin-bottom: 6px;
+    }
+}
 
 .table-hover tbody tr:hover {
     background-color: #f4f7f5 !important; 
@@ -148,13 +194,14 @@ footer .btn-outline-primary:hover {
     font-weight: 500 !important;
 }
 
-.project-link {
-    color: inherit;
+a.project-link:link,
+a.project-link:visited {
+    color: #2c3531;
     text-decoration: none;
     border-bottom: 1px solid #a38287;
 }
 
-.project-link:hover {
+a.project-link:hover {
     color: #3d5a46;
     border-bottom-color: #3d5a46;
 }
