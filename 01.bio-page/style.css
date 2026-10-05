@@ -103,17 +103,21 @@ h1, h2, h3, h4 {
     }
 
     .table-responsive tbody tr {
-        padding: 14px 0;
-        border-bottom: 1px solid #eef2f0;
+        padding: 14px 16px;
+        margin-bottom: 12px;
+        background-color: #f5e6e8;
+        border-left: 3px solid #3d5a46;
+        border-radius: 10px;
     }
 
     .table-responsive tbody tr:last-child {
-        border-bottom: none;
+        margin-bottom: 0;
     }
 
     .table-responsive td {
         padding: 2px 0 !important;
         border: none !important;
+        background-color: transparent;
     }
 
     .table-responsive td:first-child {
